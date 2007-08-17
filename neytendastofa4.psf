@@ -51,6 +51,7 @@
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.bundle,is.idega.idegaweb.egov"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.egov/is.idega.idegaweb.egov.application,is.idega.idegaweb.egov.application"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.cases.bundle,is.idega.idegaweb.egov.cases"/>
+		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.cases.focal.bundle,is.idega.idegaweb.egov.cases.focal"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.citizen.bundle,is.idega.idegaweb.egov.citizen"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.egov/is.idega.idegaweb.egov.message,is.idega.idegaweb.egov.message"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.nest.bundle,is.idega.idegaweb.egov.nest"/>
@@ -61,5 +62,6 @@
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/org.apache.axis.bundle,org.apache.axis"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/org.apache.myfaces.bundle,org.apache.myfaces"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/org.apache.slide.bundle,org.apache.slide"/>
+		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.platform/org.chiba.web,org.chiba.web"/>
 	</provider>
 </psf>
