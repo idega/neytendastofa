@@ -19,7 +19,7 @@
   </scm>
   <developers>
     <developer>
-      <name>Vytautas Civilis</name>
+      <name>Vytautas Čivilis</name>
       <id>civilis</id>
       <email>civilis@idega.com</email>
       <organization>idega software</organization>
@@ -33,7 +33,7 @@
       <roles/>
     </developer>
     <developer>
-      <name>Valdas Zemaitis</name>
+      <name>Valdas Žemaitis</name>
       <id>valdas</id>
       <email>valdas@idega.com</email>
       <organization>idega software</organization>
@@ -197,6 +197,12 @@
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.block.process.webservice</artifactId>
       <version>4.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.platform</groupId>
+      <artifactId>com.icesoft.faces</artifactId>
+      <version>1.6</version>
+      <type>jar</type>
     </dependency>
     
     <!-- Legacy dependencies -->
