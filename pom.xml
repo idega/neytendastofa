@@ -198,12 +198,6 @@
       <artifactId>com.idega.block.process.webservice</artifactId>
       <version>4.0-SNAPSHOT</version>
     </dependency>
-    <dependency>
-      <groupId>com.idega.block.platform</groupId>
-      <artifactId>com.icesoft.faces</artifactId>
-      <version>1.6</version>
-      <type>jar</type>
-    </dependency>
     
     <!-- Legacy dependencies -->
     <dependency>
@@ -342,13 +336,14 @@
       <artifactId>is.idega.iceland</artifactId>
       <version>4.0-SNAPSHOT</version>
     </dependency>
-    <!--
+    
+    <!-- Dependencies to experimental bundles-->
     <dependency>
-      <groupId>com.idega.block.egov</groupId>
-      <artifactId>is.idega.idegaweb.egov.cases.focal</artifactId>
-      <version>4.0-SNAPSHOT</version>
+      <groupId>com.idega.block.experimental</groupId>
+      <artifactId>com.idega.facelets</artifactId>
+      <version>1.1.13</version>
     </dependency>
-    -->
+    
   </dependencies>
   
   <distributionManagement>
