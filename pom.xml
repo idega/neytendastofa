@@ -10,7 +10,7 @@
   <groupId>com.idega.webapp.custom</groupId>
   <artifactId>neytendastofa</artifactId>
   <packaging>iwwar</packaging>
-  <version>4.0-SNAPSHOT</version>
+  <version>4.0.2-SNAPSHOT</version>
   <description>The eGov project Neytendastofa</description>
   <inceptionYear>2007</inceptionYear>
   <organization>
@@ -78,10 +78,6 @@
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.block.image</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>com.idega.block.platform</groupId>
-      <artifactId>com.idega.block.media</artifactId>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
@@ -163,6 +159,18 @@
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.cxf</artifactId>
     </dependency>
+     <dependency>
+      <groupId>com.idega.block.platform</groupId>
+      <artifactId>com.idega.springframework</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.platform</groupId>
+      <artifactId>com.idega.multidomain</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.platform</groupId>
+      <artifactId>com.idega.block.media</artifactId>
+    </dependency>
     
     <!-- Addon dependencies -->
     <dependency>
@@ -225,9 +233,40 @@
       <groupId>com.idega.block.addon</groupId>
       <artifactId>org.jboss.jbpm</artifactId>
     </dependency>
-    
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>is.idega.block.modernus</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>is.fmr.landskra</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>is.idega.iceland</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>com.idega.block.addon</groupId>
+		<artifactId>com.idega.block.creditcard</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>com.idega.block.addon</groupId>
+		<artifactId>com.idega.block.survey</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>com.idega.block.addon</groupId>
+		<artifactId>com.idega.block.trade</artifactId>
+    </dependency>
     
     <!-- eGov dependencies -->
+    <dependency>
+    	<groupId>com.idega.block.egov</groupId>
+    	<artifactId>com.idega.block.school</artifactId>
+    </dependency>
+    <dependency>
+		<groupId>com.idega.block.egov</groupId>
+		<artifactId>is.idega.block.family</artifactId>
+    </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov</artifactId>
@@ -242,7 +281,23 @@
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.idega.idegaweb.egov.cases.focal</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.citizen</artifactId>
+    </dependency>
+    <dependency>
+		<groupId>com.idega.block.egov</groupId>
+		<artifactId>com.idega.company</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>com.idega.block.egov</groupId>
+    	<artifactId>is.idega.idegaweb.egov.course</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>com.idega.block.egov</groupId>
+    	<artifactId>is.idega.idegaweb.egov.course.weighers</artifactId>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
@@ -250,11 +305,11 @@
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
-      <artifactId>is.idega.block.family</artifactId>
+      <artifactId>is.idega.idegaweb.egov.nest</artifactId>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
-      <artifactId>is.idega.idegaweb.egov.nest</artifactId>
+      <artifactId>is.idega.block.pki</artifactId>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
@@ -266,37 +321,13 @@
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
-      <artifactId>is.idega.block.pki</artifactId>
-    </dependency>
-    
-    <!-- Custom dependencies -->
-    <dependency>
-      <groupId>com.idega.block.custom</groupId>
-      <artifactId>is.idega.block.modernus</artifactId>
-      <version>4.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>com.idega.block.custom</groupId>
-      <artifactId>is.fmr.landskra</artifactId>
-      <version>4.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.idega.block.custom</groupId>
-      <artifactId>is.idega.iceland</artifactId>
-      <version>4.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.idega.block.egov</groupId>
-      <artifactId>is.idega.idegaweb.egov.cases.focal</artifactId>
-      <version>4.0-SNAPSHOT</version>
-    </dependency>
-    <!-- this one is problematic  
-    <dependency>
-      <groupId>com.idega.block.custom</groupId>
       <artifactId>is.idega.nest.rafverk</artifactId>
-      <version>4.0-SNAPSHOT</version>
     </dependency>
-    -->
+    <dependency>
+		<groupId>com.idega.block.egov</groupId>
+		<artifactId>is.idega.idegaweb.egov.bpm</artifactId>
+	</dependency>
+    
   </dependencies>
   
   <distributionManagement>
