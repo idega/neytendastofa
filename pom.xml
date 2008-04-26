@@ -155,10 +155,12 @@
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.block.process.webservice</artifactId>
     </dependency>
+    <!--  
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.cxf</artifactId>
     </dependency>
+    -->
      <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.springframework</artifactId>
