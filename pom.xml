@@ -260,6 +260,17 @@
 		<artifactId>com.idega.block.trade</artifactId>
     </dependency>
     
+    <dependency>
+    	<groupId>com.idega.block.addon</groupId>
+		<artifactId>com.idega.block.beanshell</artifactId>
+    </dependency>
+    
+    <!--  dependency>
+    	<groupId>com.idega.block.addon</groupId>
+		<artifactId>com.idega.ascertia</artifactId>
+		<version>4.0.3-SNAPSHOT</version>
+    </dependency-->
+    
     <!-- eGov dependencies -->
 <!--
     <dependency>
