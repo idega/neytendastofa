@@ -1,0 +1,430 @@
+<document>
+	<properties>
+		<title>Neytendastofa Changes</title>
+		<author email="laddi@idega.is">Thorhallur Helgason</author>
+	</properties>
+	<body>
+
+                <release version="4.1.0" date="2009-01-27">
+                        <action dev="trygvil" type="update">
+                                Updated to new platform 4.1 Release
+                        </action>
+                </release>
+
+		<release version="3.1.64" date="2009-01-13">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.cases to 1.0.42
+			</action>
+		</release>
+
+		<release version="3.1.63" date="2009-01-13">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.cases to 1.0.41
+			</action>
+		</release>
+
+		<release version="3.1.62" date="2008-12-17">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.course to 1.0.35
+			</action>
+		</release>
+
+		<release version="3.1.61" date="2008-11-20">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.course to 1.0.34
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.22
+			</action>
+		</release>
+
+		<release version="3.1.60" date="2008-11-20">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.course to 1.0.33
+			</action>
+		</release>
+
+		<release version="3.1.59" date="2008-11-20">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.course to 1.0.32
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.21
+			</action>
+		</release>
+
+		<release version="3.1.58" date="2008-11-06">
+			<action dev="palli" type="update">
+				Updated com.idega.block.survey to 3.1.6 (also updated core).
+			</action>
+		</release>
+
+		<release version="3.1.57" date="2008-11-03">
+			<action dev="laddi" type="fix">
+				Updated is.idega.idegaweb.egov.cases to 1.0.40
+				Updated is.idega.idegaweb.egov.course to 1.0.31
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.21
+			</action>
+		</release>
+
+		<release version="3.1.56" date="2008-10-13">
+			<action dev="palli" type="fix">
+				Rebuilding last version with new core
+			</action>
+		</release>
+
+		<release version="3.1.55" date="2008-10-02">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.20
+			</action>
+		</release>
+	
+		<release version="3.1.54" date="2008-09-16">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.course to 1.0.30
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.19
+			</action>
+		</release>
+	
+		<release version="3.1.53" date="2008-09-16">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.course to 1.0.29
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.18
+			</action>
+		</release>
+	
+		<release version="3.1.52" date="2008-07-17">
+			<action dev="laddi" type="update">
+				New version for new version of eplatform (3.1.141).
+			</action>
+		</release>
+	
+		<release version="3.1.51" date="2008-07-10">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.course to 1.0.28
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.17
+			</action>
+		</release>
+	
+		<release version="3.1.50" date="2008-07-07">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.course to 1.0.27
+			</action>
+		</release>
+	
+		<release version="3.1.49" date="2008-06-27">
+			<action dev="tryggvil" type="update">
+				Update to Focal module to make webservice URL settable
+			</action>
+		</release>
+	
+		<release version="3.1.48" date="2008-06-25">
+			<action dev="tryggvil" type="update">
+				Re-enabled the Focal integration and added is.idega.idegaweb.egov.cases.focal in version 1.0.3
+			</action>
+			<action dev="tryggvil" type="update">
+				Disabled the Rafverk modules as requested.
+			</action>
+		</release>
+		
+		<release version="3.1.47" date="2008-06-09">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.16
+				Updated is.idega.idegaweb.egov.course to 1.0.26
+			</action>
+		</release>
+		
+		<release version="3.1.46" date="2008-06-04">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.15
+				Updated is.idega.idegaweb.egov.course to 1.0.25
+			</action>
+		</release>
+		
+		<release version="3.1.45" date="2008-06-04">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.14
+				Updated is.idega.idegaweb.egov.course to 1.0.24
+			</action>
+		</release>
+		
+		<release version="3.1.44" date="2008-06-03">
+			<action dev="alexis" type="update">
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.13
+				Updated is.idega.idegaweb.egov.course to 1.0.23
+			</action>
+		</release>
+		
+		<release version="3.1.43" date="2008-06-03">
+			<action dev="alexis" type="update">
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.12
+			</action>
+		</release>
+		
+		<release version="3.1.42" date="2008-06-03">
+			<action dev="alexis" type="update">
+				Updated is.idega.idegaweb.egov.course to 1.0.22
+			</action>
+		</release>
+		
+		<release version="3.1.41" date="2008-06-03">
+			<action dev="alexis" type="update">
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.11
+			</action>
+		</release>
+		
+		<release version="3.1.40" date="2008-06-02">
+			<action dev="alexis" type="update">
+			</action>
+		</release>
+		
+		<release version="3.1.39" date="2008-06-02">
+			<action dev="alexis" type="update">
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.10
+				Updated is.idega.idegaweb.egov.course to 1.0.21
+			</action>
+		</release>
+		
+		<release version="3.1.38" date="2008-06-02">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.9
+				Updated is.idega.idegaweb.egov.course to 1.0.20
+			</action>
+		</release>
+		
+		<release version="3.1.37" date="2008-05-30">
+			<action dev="alexis" type="update">
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.8
+				Updated is.idega.idegaweb.egov.course to 1.0.19
+			</action>
+		</release>
+		
+		<release version="3.1.36" date="2008-05-27">
+			<action dev="alexis" type="update">
+				Updated com.idega.core to 3.1.88
+				Updated com.idega.block.pdf to 3.1.2
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.7
+				Updated is.idega.idegaweb.egov.course to 1.0.18
+			</action>
+		</release>
+		
+		<release version="3.1.35" date="2008-05-19">
+			<action dev="palli" type="update">
+				Downgraded is.idega.idegaweb.egov.course.weighers to 1.0.5 (1.0.6 not on the build server)
+				Updated com.idega.block.survey to 3.1.5
+			</action>
+		</release>
+
+		<release version="3.1.34" date="2008-05-07">
+			<action dev="alexis" type="update">
+				Updated is.idega.idegaweb.egov.course to 1.0.17
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.6
+			</action>
+		</release>
+		
+		<release version="3.1.33" date="2008-04-29">
+			<action dev="palli" type="update">
+				Updated com.idega.block.survey to 3.1.4
+			</action>
+		</release>
+
+		<release version="3.1.32" date="2008-04-23">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.cases to 1.0.38
+			</action>
+		</release>
+		
+		<release version="3.1.31" date="2008-04-14">
+			<action dev="alexis" type="update">
+				Updated is.idega.idegaweb.egov.course to 1.0.14
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.5
+			</action>
+		</release>
+		
+		<release version="3.1.30" date="2008-04-10">
+			<action dev="alexis" type="update">
+				Updated is.idega.idegaweb.egov.course to 1.0.13
+				Updated is.idega.idegaweb.egov.course.weighers to 1.0.4
+			</action>
+		</release>
+		
+		<release version="3.1.29" date="2008-04-01">
+			<action dev="alexis" type="update">
+				Updated is.idega.idegaweb.egov.course to 1.0.12
+				Added is.idega.idegaweb.egov.course.weighers 1.0.3 bundle
+			</action>
+		</release>
+		
+		<release version="3.1.28" date="2008-03-25">
+			<action dev="palli" type="update">
+				Updated com.idega.block.survey to 3.1.3
+			</action>
+		</release>
+
+		<release version="3.1.27" date="2008-03-07">
+			<action dev="palli" type="update">
+				Updated com.idega.block.survey to 3.1.2
+				Updated com.idega.block.category to 3.1.4
+			</action>
+		</release>
+
+		<release version="3.1.26" date="2008-03-06">
+			<action dev="laddi" type="update">
+				Added com.idega.block.survey (3.1.1) bundle
+			</action>
+		</release>
+		<release version="3.1.25" date="2008-01-23">
+			<action dev="laddi" type="update">
+				Updated cases bundle to 1.0.34
+			</action>
+		</release>
+		<release version="3.1.24" date="2007-12-28">
+			<action dev="thomas" type="update">
+				Updated rafverk bundle to 1.0.3
+			</action>
+		</release>
+		<release version="3.1.23" date="2007-12-27">
+			<action dev="thomas" type="fix">
+				Updated rafverk bundle to 1.0.2
+			</action>
+		</release>
+		<release version="3.1.22" date="2007-12-11">
+			<action dev="thomas" type="fix">
+				Updated citizen bundle to 1.0.23.
+				Updated rafverk bundle to 1.0.1
+			</action>
+		</release>
+	
+		<release version="3.1.21" date="2007-12-05">
+			<action dev="thomas" type="update">
+				fmr bundle: changed path to keystore
+			</action>
+		</release>
+		<release version="3.1.20" date="2007-12-05">
+			<action dev="thomas" type="update">
+				Commented out focal bundle since version is used for production.
+			</action>
+		</release>
+			<release version="3.1.19" date="2007-12-04">
+			<action dev="thomas" type="update">
+				Fixed bug when importing older ElectricalInstallations from Access (missing pointer to RealEstate).
+			</action>
+		</release>
+	
+		<release version="3.1.18" date="2007-12-04">
+			<action dev="tryggvil" type="update">
+				Update to deliver import of older ElectricalInstallations from Access.
+			</action>
+		</release>
+	
+		<release version="3.1.17" date="2007-11-08">
+			<action dev="laddi" type="update">
+				Updated dependency of is.idega.idegaweb.egov.cases to 1.0.31
+			</action>
+		</release>
+	
+		<release version="3.1.16" date="2007-11-06">
+			<action dev="laddi" type="update">
+				Added dependencies for course system.
+			</action>
+		</release>
+	
+		<release version="3.1.15" date="2007-10-25">
+			<action dev="laddi" type="update">
+				Updated dependency of is.idega.idegaweb.egov.cases to 1.0.30
+			</action>
+		</release>
+	
+		<release version="3.1.14" date="2007-09-10">
+			<action dev="alexis" type="update">
+				Update dependency to is.idega.idegaweb.egov.cases.focal to 1.0.3
+			</action>
+		</release>
+	
+		<release version="3.1.12" date="2007-08-30">
+			<action dev="eiki" type="update">
+				Updated com.idega.core to 3.1.62 (eplatform update 3.1.105) to fix the users preferred locale bug.
+			</action>
+			<action dev="alexis" type="update">
+				Update dependency to com.idega.block.process to 3.1.14
+			</action>
+		</release>
+		
+		<release version="3.1.11" date="2007-05-15">
+			<action dev="eiki" type="update">
+				Added [is.idega.block.modernus 3.1.2] counter.
+			</action>
+		</release>
+		
+		<release version="3.1.10" date="2007-03-28">
+			<action dev="laddi" type="update">
+				[is.idega.idegaweb.egov.casess 1.0.28] Added displaying of sender's email and phone when viewing cases as administrator.
+				[is.idega.idegaweb.egov.citizen 1.0.16] Changed so that all personal ID inputs allow a maximum of 10 letters/numbers.
+			</action>
+		</release>
+	
+		<release version="3.1.9" date="2007-03-27">
+			<action dev="laddi" type="update">				
+				Refactoring/Elimination of se bundles.
+			</action>
+		</release>
+	
+		<release version="3.1.8" date="2007-03-19">
+			<action dev="tryggvil" type="update">				
+				[is.idega.block.pki 1.0.1] Added PKI module
+				[is.idega.idegaweb.egov.citizen 1.0.13] Upgraded because dependency from new PKI block
+				[se.idega.idegaweb.commune 1.0.8] Upgraded because dependency from new PKI block
+				[is.idega.idegaweb.egov.cases 1.0.26] Updated because of localized string change from hlynur.
+			</action>
+		</release>
+	
+		<release version="3.1.7" date="2007-03-16">
+			<action dev="laddi" type="update">
+				[is.idega.idegaweb.egov.cases 1.0.25] Added possibility to add attachments to new cases.
+				[is.idega.idegaweb.egov.cases 1.0.25] Fixed so that the cases fetcher allows for choosing only parent category and leaving sub category blank.
+			</action>
+		</release>
+		
+		<release version="3.1.6" date="2007-03-09">
+			<action dev="laddi" type="update">
+				[is.idega.idegaweb.egov.cases 1.0.23] Added a new block to fetch all cases by a user specified criteria.  An Excel sheet can then be fetched based on the results.
+			</action>
+		</release>
+		
+		<release version="3.1.5" date="2007-03-01">
+			<action dev="eiki" type="fix">
+				[is.idega.idegaweb.egov.cases 1.0.22] 
+				Changed CaseCreator so it does not use Form.maintainParameter for the message text. 
+				The text would be sent incomplete if it contained html characters because of the confirmation step and a hidden input. The html would get invalid.
+			</action>
+		</release>
+		
+		<release version="3.1.4" date="2006-02-23">
+			<action dev="eiki" type="update">
+				[is.idega.idegaweb.egov.nest 3.1.3] Added missing dependency
+			</action>
+		</release>
+	
+		<release version="3.1.3" date="2006-02-22">
+			<action dev="eiki" type="fix">
+				[is.idega.idegaweb.egov.cases 1.0.21] Fixed a NPE in CaseViewer when user reactivated the case
+			</action>
+		</release>
+		
+		<release version="3.1.2" date="2006-02-20">
+			<action dev="eiki" type="fix">
+				[is.idega.idegaweb.egov.cases 1.0.20] Fixed a NPE in CaseCreator
+				Also set a fixed version for se.idega.idegaweb.commune 1.0.7
+			</action>
+		</release>
+		
+		<release version="3.1.1" date="2007-02-07">
+			<action dev="laddi" type="update">
+				Updated all blocks to correct versions.
+			</action>
+		</release>
+
+		<release version="3.1.0" date="2006-10-17">
+			<action dev="laddi" type="update">
+				Built new version on ePlatform 3.1 release for demo purposes.
+			</action>
+		</release>
+
+	</body>
+</document>
