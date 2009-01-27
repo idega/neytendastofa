@@ -10,7 +10,7 @@
   <groupId>com.idega.webapp.custom</groupId>
   <artifactId>neytendastofa</artifactId>
   <packaging>iwwar</packaging>
-  <version>4.1.0</version>
+  <version>4.1.11-SNAPSHOT</version>
   <description>The eGov project Neytendastofa</description>
   <inceptionYear>2007</inceptionYear>
   <organization>
@@ -20,7 +20,6 @@
   <scm>
     <connection>scm:cvs:ext:idegaweb@code.idega.com:/idega/cvs:com.idega.webapp.custom/neytendastofa/</connection>
     <developerConnection>scm:cvs:ext:idegaweb@code.idega.com:/idega/cvs:com.idega.webapp.custom/neytendastofa/</developerConnection>
-    <tag>neytendastofa-4_1_0</tag>
   </scm>
   <developers>
     <developer>
