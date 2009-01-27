@@ -358,6 +358,11 @@
       <name>idega Maven2 Repository</name>
       <url>scp://repository.idega.com/var/www/webs/repository.idega.com/maven2</url>
     </repository>
+    <site>
+      <id>idega1</id>
+      <name>idega Maven2 Documentation site</name>
+          <url>file:///var/www/webs/developer.idega.com/platform4/${groupId}/${artifactId}</url>
+    </site>
   </distributionManagement>
 
   <build>
