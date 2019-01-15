@@ -243,10 +243,6 @@
 			<groupId>com.idega.block.addon</groupId>
 			<artifactId>com.idega.block.beanshell</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>com.idega.block.addon</groupId>
-			<artifactId>com.idega.ascertia</artifactId>
-		</dependency>
 
 		<!-- eGov dependencies -->
 		<dependency>
@@ -301,6 +297,10 @@
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.idegaweb.egov.xformscase</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.block.pki</artifactId>
+		</dependency>
 		
 		<!-- Private dependencies -->
 		<dependency>
@@ -310,10 +310,6 @@
 		<dependency>
 			<groupId>com.idega.block.private</groupId>
 			<artifactId>is.idega.idegaweb.egov.nest</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.private</groupId>
-			<artifactId>is.idega.block.pki</artifactId>
 		</dependency>
 	</dependencies>
 
